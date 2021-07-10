@@ -8,22 +8,23 @@ class Directory extends React.Component {
         super();
 
         this.state = {
+            sections: [],
             sellItems: []
         };
     }
 
     componentDidMount(){
-        fetch('items.json')
+        fetch('sections.json')
         .then(response => response.json())
-        .then(name => this.setState({sellItems: name}));
+        .then(name => this.setState({sections: name}));
     }
 
     render(){
         return (
             <div className='directory-menu'>
                 {
-                    this.state.sellItems.map(({id, name}) => (
-                        <MenuItem key={id} title={name}/>
+                    this.state.sections.map(({id, name, description, imageUrl}) => (
+                        <MenuItem key={id} title={name} description={description} imageUrl={imageUrl} />
                     ))
                 }
             </div>
