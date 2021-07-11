@@ -3,30 +3,35 @@
 		"id": "1",
 		"name": "Signs",
 		"description": "מגוון שלטים לדלת",
-		"imageUrl": "images/sections/signs.jpg"
+		"imageUrl": "images/sections/signs.jpg",
+		"linkUrl": "signs"
 	},
 	{
 		"id": "2",
 		"name": "Boxes",
 		"description": "קופסאות לכל מטרה",
-		"imageUrl": "images/sections/boxes.jpg"
+		"imageUrl": "images/sections/boxes.jpg",
+		"linkUrl": "boxes"
 	},
 	{
 		"id": "3",
 		"name": "Key chains",
 		"description": "מחזיקי מפתחות באיצוב מיוחד",
-		"imageUrl": "images/sections/key-chains.jpg"
+		"imageUrl": "images/sections/key-chains.jpg",
+		"linkUrl": "key-chains"
 	},
 	{
 		"id": "4",
 		"name": "Albums",
 		"description": "אלבומים וספרים",
-		"imageUrl": "images/sections/albums.jpg"
+		"imageUrl": "images/sections/albums.jpg",
+		"linkUrl": "albums"
 	},
 	{
 		"id": "5",
 		"name": "Special Items",
 		"description": "עבודות מיוחדות",
-		"imageUrl": "images/sections/special-items.jpg"
+		"imageUrl": "images/sections/special-items.jpg",
+		"linkUrl": "special"
 	}
 ]
